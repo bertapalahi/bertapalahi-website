@@ -1,4 +1,5 @@
 // mostrar imatges quan cliques
+/*
 function openLightbox(imageUrl) {
     var lightbox = document.querySelector('.lightbox');
     var lightboxImage = document.getElementById('lightbox-image');
@@ -10,7 +11,7 @@ function closeLightbox() {
     var lightbox = document.querySelector('.lightbox');
     lightbox.style.display = 'none';
 }
-
+*/
 // galeria masonry
 $('.grid').masonry({
   columnWidth: '.grid-sizer',
