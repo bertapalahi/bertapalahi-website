@@ -2,181 +2,91 @@
 <html lang="ca">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Informació sobre la fotografa">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>contacta'm</title>
+	<meta name="description" content="Informació sobre la fotògrafa">
+	<title>Contacta'm</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilo.min.css">
 	<link rel="shortcut icon" href="ber_photos/photober.webp" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Alegreya:ital@0&display=swap" rel="stylesheet">
 	<style>
-		img{
-			/*opacity: 0;*/
-			transition: 0.5s;
-			object-fit: contain;
-			width: 300px;
-			height: 300px;
-		}
-
-		img:hover{
-			transform: scale(1.02);
-		}
-		
-
-        .img1 {
-            width: 200px;
-            top: 50px;
-            left: 50px;
-            z-index: 1; /* Controla la superposició d'elements */
-        }
-
-        .img2 {
-            width: 250px;
-            top: 120px;
-            left: 120px;
-            z-index: 2;
-        }
-
-		.form{
-			margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-		}
-
-		form {
-			background-color: #fff;
-            padding: 50px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-			font-family: 'Amiri', serif;
-        }
-
-        input,
-        textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 16px;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        input[type="submit"] {
-            background-color: #272727;
-            color: white;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #272727;
-        }
-
-		.about{
-			font-family: 'Amiri', serif;
-		}
-
-		.social-container {
-            display: flex; /* Permet que el contenedor tingui la mida del text */
-			align-items: center;
-			justify-content: center;
-    		vertical-align: middle; /* Centra verticalment el contenedor */
-    		margin-top: 10px; /* Ajusta el marge superior segons les teves preferències */
-    		margin-right: 10px; /* Ajusta el marge dret segons les teves preferències */
-        }
-
-		.social-container:hover{
-			transform: scale(1.1); /* Hacer que el botón se agrande al 110% cuando el cursor está sobre él */
-		}
-
-        .instagram-btn {
-            background-color: #cbddd1;
-            color: #272727;
-            padding: 8px 16px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            align-items: center;
-			display:flex;
-        }
-
-		.instagram-btn:hover{
-			cursor: pointer;
-			color: #272727;
-		}
-
-        .instagram-icon {
-            width: 20px;
-            height: 20px;
-            margin-right: 5px;
-        }
-
-		.container p{
+		.container p {
 			text-align: justify;
-			margin: 80px;
+		}
+
+		.text-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.email-icon, .instagram-icon {
+			width: 20px;
+			height: 20px;
+			margin-right: 5px;
 		}
 	</style>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JJ3F5CHLGD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JJ3F5CHLGD');
-</script>
 <body>
 	<!-- Botó per obrir el menú -->
-    <div class="openbtn" onclick="openNav()">&#9776;</div>
+	<div class="openbtn" onclick="openNav()">&#9776;</div>
 
-    <!-- Menú lateral -->
-    <div class="sidenav">
-        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Inici</a>
-        <a href="interiors.html">Espais</a>
+	<!-- Menú lateral -->
+	<div class="sidenav">
+		<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Inici</a>
+		<a href="interiors.html">Espais</a>
 		<a href="natura.html">Natura</a>
-        <a href="esport.html">Esports</a>
-        <a href="sessions.html">Sessions</a>
-        <a href="projectes.html">Reportatges</a>
-        <a href="viatges.html">Viatges</a>
-        <a href="#">Sobre Mi</a>
-    </div>
+		<a href="esport.html">Esports</a>
+		<a href="sessions.html">Sessions</a>
+		<a href="projectes.html">Reportatges</a>
+		<a href="viatges.html">Viatges</a>
+		<a href="#">Sobre Mi</a>
+	</div>
 
-	<div class="container">
-		<div class="grid" data-masonry='{ "columnWidth": 200, "itemSelector": ".grid-item" }'>
-			<h2>Sobre Mi</h2>
-			<p>De Girona. Amb la càmera a la mà des dels dotze anys. M'agrada molt observar, i intento captar allò que em sembla bonic. 
-			De la fotografia busco l'espontaneïtat i transmetre emocions. Cada vegada que capturo és una oportunitat per explicar una història, 
-			per a captar la bellesa en els detalls més petits i per a immortalitzar instants plens de significat. El meu objectiu és crear imatges 
-			autèntiques i emotives que connectin amb les persones i els facin sentir. Acompanya'm en aquest viatge!</p>
-			<img src="ber_photos/bertapalahi.webp" alt="berta amb la càmara a la mà" class="img2">
-			<!--<img src="ber_photos/bertography.JPG" alt="fotògrafa" >-->
+	<!-- container amb tot el text -->
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="mb-4">Sobre Mi</h2>
+				<p>De Girona. Fent fotografies des dels dotze anys. M'agrada molt observar, i intento captar allò que em sembla bonic. 
+				De la fotografia busco l'espontaneïtat i transmetre emocions. Cada vegada que capturo és una oportunitat per explicar una història, 
+				per captar la bellesa en els detalls més petits i per a immortalitzar instants plens de significat. El meu objectiu és crear imatges 
+				autèntiques i emotives que connectin amb les persones i els facin sentir.</p>
+			</div>
+		</div>
+		<div class="row content-row mt-4">
+			<div class="col-md-6 mb-3 mb-md-0">
+				<img src="ber_photos/bertapalahi.webp" alt="berta amb la càmara a la mà" class="img-fluid">
+			</div>
+			<div class="col-md-6 text-container">
+				<p class="mb-6">El 2020 vaig estar treballant en un parc d'atraccions com a fotògrafa i el 2023 vaig guanyar
+					el segon premi de fotografia de natura de l'ADAC. El meu estil consisteix en captar la naturalitat. 
+					M'agraden les fotografies amb llum natural i sense masses retocs artificials.
+					Busco un tracte proper i espontani amb els clients. Vols saber-ne més? Contacta'm!
+				</p>
+				<div class="contact-info">
+					<a href="mailto:palahi.berta@gmail.com">
+						<img src="ber_photos/email-icon.webp" alt="Email Icon" class="email-icon">
+						palahi.berta@gmail.com
+					</a>
+				</div>
+				<div class="social-container">
+					<a href="https://www.instagram.com/berta.palahi" target="_blank">
+						<img src="ber_photos/instagram-icon.webp" alt="Instagram Icon" class="instagram-icon">
+						@berta.palahi
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
-	<h2><a href="mailto:correu@example.com">palahi.berta@gmail.com</a></h2>
-	<div class="social-container">
-		<a href="https://www.instagram.com/berta.palahi" target="_blank" class="instagram-btn">
-			<img src="ber_photos/instagram-icon.webp" alt="Instagram Icon" class="instagram-icon">
-			Segueix-me per saber-ne més
-		</a>
-	</div>
 
-	<script src="js/script.js"></script>	
-
-	<footer>
-		<p>
-			© 2024 Berta Palahí. All rights reserved
-		</p>
+	<footer class="text-center mt-5">
+		<p>© 2024 Berta Palahí. All rights reserved</p>
 	</footer>
+
+	<script src="js/script.js"></script>
 </body>
 </html>
