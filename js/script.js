@@ -32,7 +32,7 @@ document.addEventListener('contextmenu', function(e) {
 
 //menu lateral - sidebar
 function openNav() {
-  document.querySelector(".sidenav").style.width = "200px";
+  document.querySelector(".sidenav").style.width = "250px";
   //var button = document.querySelector(".openbtn");
   //button.style.display = "none";
 }
