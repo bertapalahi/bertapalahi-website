@@ -129,9 +129,9 @@ h4{
 }
 
 .container img {
-    max-width: 300px; /* Assegura que les imatges no superin l'amplada del seu contenidor */
-    max-height: 300px; /* Estableix l'alçada màxima desitjada */
-	border-radius: 5px; /* Afegeix vores arrodonides a les imatges */
+    max-width: 350px; /* Assegura que les imatges no superin l'amplada del seu contenidor */
+    max-height: 350px; /* Estableix l'alçada màxima desitjada */
+	border-radius: 1px; /* Afegeix vores arrodonides a les imatges */
 }
 
 /*imatge ampliada*/
