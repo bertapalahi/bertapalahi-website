@@ -15,7 +15,7 @@
 }
 
 body{
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-style: normal;
 	color: #272727;
 	height: 100%;
@@ -88,7 +88,7 @@ h4{
 }
 
 .sidenav a {
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	padding: 8px 8px 8px 40px; /* Establece el relleno del enlace (arriba, derecha, abajo, izquierda). En este caso, 8 píxeles arriba, 8 píxeles a la derecha, 8 píxeles abajo y 32 píxeles a la izquierda. Esto crea un espacio entre el borde del enlace y su contenido. */
     font-size: 20px; /* Establece el tamaño de la fuente del enlace en 18 píxeles. */
     color: white; /* Establece el color del texto del enlace en blanco (#f1f1f1). */
