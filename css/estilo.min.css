@@ -15,12 +15,10 @@
 }
 
 body{
-	font-family: "Oswald", sans-serif;
+	font-family: 'Courier New', Courier, monospace;
 	font-style: normal;
 	color: #272727;
 	height: 100%;
-    margin: 0;
-    padding: 0;
 	background-color: #efedee;
 }
 
@@ -90,7 +88,7 @@ h4{
 }
 
 .sidenav a {
-	font-family: 'Oswald ExtraLight';
+	font-family: 'Courier New', Courier, monospace;
 	padding: 8px 8px 8px 40px; /* Establece el relleno del enlace (arriba, derecha, abajo, izquierda). En este caso, 8 píxeles arriba, 8 píxeles a la derecha, 8 píxeles abajo y 32 píxeles a la izquierda. Esto crea un espacio entre el borde del enlace y su contenido. */
     font-size: 20px; /* Establece el tamaño de la fuente del enlace en 18 píxeles. */
     color: white; /* Establece el color del texto del enlace en blanco (#f1f1f1). */
@@ -121,17 +119,17 @@ h4{
 
 /*galeria d'imatges*/
 .container {
+	flex: 1;
 	margin: 0 auto;
 	padding: 20px;
 	margin-top: 20px;
 	text-align: center;
-	/*background-color: #cbddd1;*/
 }
 
 .container img {
     max-width: 350px; /* Assegura que les imatges no superin l'amplada del seu contenidor */
     max-height: 350px; /* Estableix l'alçada màxima desitjada */
-	border-radius: 1px; /* Afegeix vores arrodonides a les imatges */
+	border-radius: 1.5px; /* Afegeix vores arrodonides a les imatges */
 }
 
 /*imatge ampliada*/
@@ -271,7 +269,7 @@ h4{
 
 footer{
 	text-align: center;
-	margin: 50px;
+    margin: 50px;
 }
 
 .wrapper .carousel{
