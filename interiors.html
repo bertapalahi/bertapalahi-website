@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ca">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="author" content="fotografa a girona">
@@ -8,35 +9,9 @@
 	<link rel="shortcut icon" href="ber_photos/photober.webp" />
     <link rel="stylesheet" href="css/estilo.min.css">
     <title>Espais</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-    <style>
-	.imatge {
-	    text-align: center;
-	    margin: 20px;
-	    position: relative; /* Afegeix una posició relativa al contenidor de la imatge */
-	}
-
-	.imatge a {
-	    text-decoration: none;
-	    color: inherit;
-	    display: block; /* Fes l'enllaç un element de bloc perquè ocupi tot l'espai disponible */
-	    overflow: hidden; /* Evita que el text es desborde fora de la imatge */
-	}
-
-	.imatge img {
-	    max-width: 100%;
-	    height: auto;
-	}
-
-	.text {
-	    position: absolute; /* Afegeix una posició absoluta per col·locar el text sobre la imatge */
-	    bottom: 0; /* Col·loca el text a la part inferior */
-	    width: 100%; /* Fes que el text ocupe tot l'ample del contenidor de la imatge */
-	    background-color: rgba(255, 255, 255, 0.7); /* Fons semi-transparent per millorar llegibilitat */
-	    padding: 10px; /* Espaiat interior del text */
-	}
-    </style>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> <!--importem masonry-->
 </head>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJ3F5CHLGD"></script>
 <script>
@@ -46,6 +21,7 @@
 
   gtag('config', 'G-JJ3F5CHLGD');
 </script>
+
 <body>
 	<!-- Botó per obrir el menú -->
     <div class="openbtn" onclick="openNav()">&#9776;</div>
@@ -64,64 +40,119 @@
 		<a href="contact.html">Sobre Mi</a>
 	</div>
 
-    <div class="container">
-        <div class="grid" data-masonry='{ "columnWidth": 200, "itemSelector": ".grid-item" }'>
-            <h2>Fotografia d'espais interiors i exteriors</h2>
-            <p>Fotografies després d'una reforma d'un espai cuina-menjador</p>
+    <h2>Fotografia d'espais interiors i exteriors</h2>
+    <!-- Container d'imatges -->
+    <div class="grid">
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors42.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors43.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors44.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors45.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors46.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors47.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors48.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/il·luminació.gif" alt="fotografia interiorisme">
-            <p>Fotografies després d'una reforma d'una cuina</p>
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors35.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors38.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors40.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors39.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors37.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors36.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors41.webp" alt="fotògrafia d'interiors">
-            <p>Fotografies d'una masia reformada del segle XX</p>
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors4.webp" alt="fotògrafa d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors8.webp" alt="fotògrafa d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors.webp" alt="fotògrafa d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors1.webp" alt="fotògrafa d'espais">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors2.webp" alt="fotògrafa d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/llum.gif" alt="fotògrafa d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors14.webp" alt="fotògrafa d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interior.webp" alt="fotografia interiorisme">
-            <p>Fotografies d'un lavabo d'un restaurant a Bali, construït amb plàstic reciclat</p>
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors5.webp" alt="fotògrafa d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors6.webp" alt="fotògrafa d'interiors">
+        </div>
+        <div class="grid-item">
             <img src="ber_photos/interiors/interiors7.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors16.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors28.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors29.webp" alt="fotògrafa d'interiors">
-            <p>Fotografies d'un altell transformat en estudi</p>
-            <img src="ber_photos/interiors/interiors9.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors31.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors17.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors12.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors30.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors32.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors23.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors33.webp" alt="fotògrafa d'interiors">
-            <p>Fotografies vàries d'interiors i exteriors</p>
-            <img src="ber_photos/interiors/interiors24.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors25.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors15.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors18.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors19.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors20.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors26.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/interiors/interiors22.webp" alt="fotògrafa d'interiors">
-            <img src="ber_photos/viatges/novayork4.webp" alt="fotografia d'arquitectura">
-            <img src="ber_photos/interiors/interiors13.webp" alt="fotografia d'espais">
-            <img src="ber_photos/viatges/2016/italia1.webp" alt="fotografia d'arquitectura">
-            <img src="ber_photos/viatges/2019/paris2.webp" alt="fotografia d'arquitectura">
+        </div>
+        <div class="grid-item">
+            <img src="ber_photos/interiors/interiors16.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
+            <img src="ber_photos/interiors/interiors28.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
+            <img src="ber_photos/interiors/interiors29.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
+            <img src="ber_photos/interiors/interiors9.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
+            <img src="ber_photos/interiors/interiors31.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
+            <img src="ber_photos/interiors/interiors17.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
+            <img src="ber_photos/interiors/interiors12.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
+            <img src="ber_photos/interiors/interiors30.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
+            <img src="ber_photos/interiors/interiors32.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
+            <img src="ber_photos/interiors/interiors23.webp" alt="fotògrafia d'interiors">
+        </div>
+        <div class="grid-item">
+            <img src="ber_photos/interiors/interiors33.webp" alt="fotògrafia d'interiors">
         </div>
     </div>
 
@@ -130,6 +161,12 @@
         <img id="lightbox-image" src="" alt="Imagen Ampliada">
         </div>
     -->
+
+    <!--Footer -->
+    <footer>
+        <p>&copy; 2024 Berta Palahí. Tots els drets reservats.</p>
+    </footer>
+
     <script src="js/script.js"></script>
     </body>
 </html>

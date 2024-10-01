@@ -24,12 +24,15 @@
 	src: url('../fonts/Buenard-Regular.ttf')
 }
 
+/*body*/
 body{
 	font-family: 'Buenard Regular';
 	font-style: normal;
 	color: #272727;
 	height: 100%;
 	background-color: #efedee;
+	display: flex;
+	flex-direction: column;
 }
 
 /*portada*/
@@ -85,6 +88,7 @@ h4{
 	margin-left: 20px;
 }
 
+/*barra de tasques*/
 .sidenav {
 	height: 100%;
 	width: 0;
@@ -128,22 +132,32 @@ h4{
 	margin: 0 auto; /* Centra la imatge horitzontalment */
 }
 
-/*galeria d'imatges*/
-.container {
-	flex: 1;
-	margin: 0 auto;
-	padding: 20px;
-	margin-top: 20px;
+/*galeria d'imatges masonry*/
+.grid {
+	column-count: 6;
+	column-gap: 10px; /*16px*/
+}
+
+.grid .grid-item{
+	display: inline-block;
+	margin-bottom: 16px;
+	width: 100%;
+}
+
+.grid .grid-item img {
+	width: 100%;
+  }
+
+/*footer per a totes les pàgines*/
+footer{
 	text-align: center;
+    margin: 50px;
+	position: relative;
+	width: 100%;
+	bottom: 0;
 }
 
-.container img {
-    max-width: 350px; /* Assegura que les imatges no superin l'amplada del seu contenidor */
-    max-height: 350px; /* Estableix l'alçada màxima desitjada */
-	border-radius: 1.5px; /* Afegeix vores arrodonides a les imatges */
-}
-
-/*imatge ampliada*/
+/*imatge ampliada
 .lightbox {
 	display: none;
 	position: fixed;
@@ -160,7 +174,7 @@ h4{
 	max-height: 90vh;
 	max-width: 90vw;
 	margin-top: 5vh;
-}
+}*/
 
 /*projects*/
 .projects {
@@ -273,15 +287,11 @@ h4{
 	/*background-attachment: fixed;*/
 }
  /*definim separadors*/
-
 .separador{
 	margin: 100px;
 }
 
-footer{
-	text-align: center;
-    margin: 50px;
-}
+
 
 .wrapper .carousel{
 	white-space: nowrap;
@@ -428,7 +438,7 @@ a:hover{
 		padding: 8px 16px; /* Ajusta l'espaiat del botó */
 	}
 }
-        
+       
 /* Móviles en vertical */
 @media (max-width: 480px) {
     h1 {
