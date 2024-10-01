@@ -261,8 +261,20 @@ a:hover{
 	color: #cbddd1;
 }
 
-/* Móviles en horizontal o tablets en vertical */
 /* Estils específics per a mòbils */
+@media (max-width: 1199px) {
+	.grid{
+		column-count: 4;
+	}
+}
+
+@media (max-width: 991px) {
+	.grid{
+		column-count: 3;
+	}
+}
+
+/* Móviles en horizontal o tablets en vertical */
 @media (max-width: 767px) {
     h1 {
         font-size: 8vw;
