@@ -79,14 +79,6 @@ h4{
 	font-size: 20px;
 }
 
-/*Menu*/
-.openbtn {
-	color: #272727;
-	font-size: 40px;
-	padding: auto;
-	cursor: pointer;
-	margin-left: 20px;
-}
 
 /*barra de tasques*/
 .sidenav {
@@ -124,12 +116,12 @@ h4{
 	margin-left: 50px;
 }
 
-.logo{
-	text-align: center;
-}
-
-.logo img{
-	margin: 0 auto; /* Centra la imatge horitzontalment */
+.openbtn {
+	color: #272727;
+	font-size: 40px;
+	padding: auto;
+	cursor: pointer;
+	margin-left: 20px;
 }
 
 /*galeria d'imatges masonry*/
@@ -176,36 +168,6 @@ footer{
 	margin-top: 5vh;
 }*/
 
-
-.overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: auto;
-	width: 100%;
-	opacity: 0;
-	transition: .5s ease;
-}
-
-.projects:hover .overlay {
-	opacity: 1;
-}
-
-.text {
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	text-align: center;
-	cursor: pointer;
-}
-
 /*
 .logo img{
 	width: 50px;
@@ -234,6 +196,7 @@ footer{
 	margin: 100px;
 }
 
+/*
 .info {
 	padding: 5px;
 	box-sizing: content-box;
@@ -246,7 +209,7 @@ footer{
 .btn{
 	border: none;
 	padding: 10px; /*espacio alrededor texto*/
-	/*border-radius: 5px; bordes redondos*/
+	/*border-radius: 5px; bordes redondos
 	background-color: transparent;
 	cursor: pointer;
 	font-family: montserrat;
@@ -264,7 +227,7 @@ footer{
 .btn-right{
 	border: none;
 	padding: 10px; /*espacio alrededor texto*/
-	/*border-radius: 5px; bordes redondos*/
+	/*border-radius: 5px; bordes redondos
 	background-color: transparent;
 	cursor: pointer;
 	font-family: montserrat;
@@ -285,7 +248,7 @@ footer{
 .photo{
 	flex: 0 0 30%;
     margin-right: 20px;
-}
+}*/
 
 a {
 	outline: none;
