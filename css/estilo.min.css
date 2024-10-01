@@ -46,6 +46,19 @@ body{
     margin: 0; /* Elimina marges que podrien afectar l'alçada total */
 }
 
+/*definim titol de la portada index*/
+.title{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+	overflow: auto;
+	/*background-attachment: fixed;*/
+}
+
 /*titol i subtitol*/
 h1{
 	font-size: 60px;
@@ -79,6 +92,16 @@ h4{
 	font-size: 20px;
 }
 
+a {
+	outline: none;
+	text-decoration: none;
+	color: #272727;
+	cursor: pointer;
+  }
+
+a:hover{
+	color: #cbddd1;
+}
 
 /*barra de tasques*/
 .sidenav {
@@ -149,118 +172,6 @@ footer{
 	bottom: 0;
 }
 
-/*imatge ampliada
-.lightbox {
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.8);
-	z-index: 9999;
-	text-align: center;
-}
-
-.lightbox img {
-	max-height: 90vh;
-	max-width: 90vw;
-	margin-top: 5vh;
-}*/
-
-/*
-.logo img{
-	width: 50px;
-	height: 50px;
-}
-
-.logo img:hover{
-	transform: scale(1.3);
-}*/
-
-/*definim titol de la portada index*/
-.title{
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-	font-size: 30px;
-	overflow: auto;
-	/*background-attachment: fixed;*/
-}
-
- /*definim separadors*/
-.separador{
-	margin: 100px;
-}
-
-/*
-.info {
-	padding: 5px;
-	box-sizing: content-box;
-	justify-content: space-between;
-    text-align: left;
-	line-height: 1.5;
-	margin-right: 80px;
-}
-
-.btn{
-	border: none;
-	padding: 10px; /*espacio alrededor texto*/
-	/*border-radius: 5px; bordes redondos
-	background-color: transparent;
-	cursor: pointer;
-	font-family: montserrat;
-	font-size: 20px;
-	color: #272727;
-}
-
-.btn:hover{
-	box-shadow: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
-	transition: transform 150ms;
-	transform: scale(1.03);
-	color: #cbddd1;
-}
-
-.btn-right{
-	border: none;
-	padding: 10px; /*espacio alrededor texto*/
-	/*border-radius: 5px; bordes redondos
-	background-color: transparent;
-	cursor: pointer;
-	font-family: montserrat;
-	position: absolute;
-    	top: 20px;
-    	right: 20px;
-	font-size: 20px;
-	color: #272727;
-}
-
-.btn-right:hover{
-	box-shadow: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
-	transition: transform 150ms;
-	transform: scale(1.03);
-	color: #cbddd1;
-}
-
-.photo{
-	flex: 0 0 30%;
-    margin-right: 20px;
-}*/
-
-a {
-	outline: none;
-	text-decoration: none;
-	color: #272727;
-	cursor: pointer;
-  }
-
-a:hover{
-	color: #cbddd1;
-}
-
 /* Estils específics per a mòbils */
 @media (max-width: 1199px) {
 	.grid{
@@ -292,26 +203,6 @@ a:hover{
     .grid{
 		column-count: 2;
 	}
-
-    .projects {
-        grid-gap: 5px;
-    }
-
-    .biggallery img {
-        max-width: none;
-        max-height: none;
-    }
-
-	.info {
-        font-size: 14px;
-        line-height: 1.4;
-		margin-bottom: 60px; /* Afegeix espai entre el text i el botó */
-    }
-
-	.instagram-btn {
-		font-size: 14px; /* Redueix la grandària del text del botó */
-		padding: 8px 16px; /* Ajusta l'espaiat del botó */
-	}
 }
        
 /* Móviles en vertical */
@@ -332,25 +223,29 @@ a:hover{
     .grid{
 		column-count: 1;
 	}
-
-    .projects {
-        grid-gap: 2px;
-    }
-
-    .biggallery img {
-        max-width: none;
-        max-height: none;
-    }
-
-	.info {
-        font-size: 14px;
-        line-height: 1.4;
-		margin-bottom: 20px; /* Afegeix espai entre el text i el botó */
-    }
-
-	.instagram-btn {
-		font-size: 14px; /* Redueix la grandària del text del botó */
-		padding: 8px 16px; /* Ajusta l'espaiat del botó */
-	}
 }
+
+/*imatge ampliada
+.lightbox {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 9999;
+	text-align: center;
+}
+
+.lightbox img {
+	max-height: 90vh;
+	max-width: 90vw;
+	margin-top: 5vh;
+}*/
+
+/*definim separadors
+.separador{
+	margin: 100px;
+}*/
 
