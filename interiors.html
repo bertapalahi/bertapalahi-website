@@ -7,6 +7,7 @@
 	<meta name="description" content="Pagina de fotografa, contiene fotografias e información de la fotografa">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="ber_photos/photober.webp" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.min.css">
     <title>Espais</title>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> <!--importem masonry-->
@@ -23,150 +24,71 @@
 </script>
 
 <body>
-	<!-- Botó per obrir el menú -->
-    <div class="openbtn" onclick="openNav()">&#9776;</div>
-
-    <!-- Menú lateral -->
-    <div class="sidenav">
-		<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="index.html">Inici</a>
-		<a href="#">Interiors</a>
-		<a href="casaments.html">Casaments</a>
-		<a href="esport.html">Esports</a>
-		<a href="natura.html">Natura</a>
-		<a href="sessions.html">Sessions</a>
-		<!--<a href="projectes.html">Projectes</a>
-		<a href="viatges.html">Viatges</a>-->
-		<a href="contact.html">Sobre Mi</a>
-	</div>
-
-    <h2>Fotografia d'espais interiors i exteriors</h2>
-    <p> Fotografia de reformes de diferents interioristes o arquitectes.</p>
-    <!-- Container d'imatges -->
-    <div class="grid">
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors42.webp" alt="fotògrafia d'interiors">
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-3 menu p-4">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link text-black" href="index.html">Inici</a></li>
+                    <li class="nav-item"><a class="nav-link text-black bg-light" href="#">Interiors</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="casaments.html">Casaments</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="esport.html">Esports</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="sessions.html">Sessions</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="natura.html">Natura</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="contact.html">Sobre Mi</a></li>
+                </ul>
+            </nav>
+            <section class="col-9 gallery">
+                <h4>Fotografia d'espais</h4>
+                <p> Fotografia de reformes de diferents interioristes o arquitectes.</p>
+                <!-- Container d'imatges -->
+                <div class="grid">
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors42.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors43.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors44.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors45.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors46.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors47.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors48.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/il·luminació.gif" alt="fotografia interiorisme"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors35.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors38.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors40.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors39.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors37.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors36.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors41.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors4.webp" alt="fotògrafa d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors8.webp" alt="fotògrafa d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors.webp" alt="fotògrafa d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors1.webp" alt="fotògrafa d'espais"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors2.webp" alt="fotògrafa d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/llum.gif" alt="fotògrafa d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors14.webp" alt="fotògrafa d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interior.webp" alt="fotografia interiorisme"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors5.webp" alt="fotògrafa d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors6.webp" alt="fotògrafa d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors7.webp" alt="fotògrafa d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors16.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors28.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors29.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors9.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors31.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors17.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors12.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors30.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors32.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors23.webp" alt="fotògrafia d'interiors"></div>
+                    <div class="grid-item"><img src="ber_photos/interiors/interiors33.webp" alt="fotògrafia d'interiors"></div>
+                </div>
+            </section>     
         </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors43.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors44.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors45.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors46.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors47.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors48.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/il·luminació.gif" alt="fotografia interiorisme">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors35.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors38.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors40.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors39.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors37.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors36.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors41.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors4.webp" alt="fotògrafa d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors8.webp" alt="fotògrafa d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors.webp" alt="fotògrafa d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors1.webp" alt="fotògrafa d'espais">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors2.webp" alt="fotògrafa d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/llum.gif" alt="fotògrafa d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors14.webp" alt="fotògrafa d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interior.webp" alt="fotografia interiorisme">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors5.webp" alt="fotògrafa d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors6.webp" alt="fotògrafa d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors7.webp" alt="fotògrafa d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors16.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors28.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors29.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors9.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors31.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors17.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors12.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors30.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors32.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors23.webp" alt="fotògrafia d'interiors">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/interiors/interiors33.webp" alt="fotògrafia d'interiors">
-        </div>
+        <!--Footer -->
+        <footer>
+            <p>&copy; 2024 Berta Palahí. Tots els drets reservats.</p>
+        </footer>
     </div>
 
-    <!--
-        <div class="lightbox" onclick="closeLightbox()">
-        <img id="lightbox-image" src="" alt="Imagen Ampliada">
-        </div>
-    -->
-
-    <!--Footer -->
-    <footer>
-        <p>&copy; 2024 Berta Palahí. Tots els drets reservats.</p>
-    </footer>
+    
 
     <script src="js/script.js"></script>
     </body>

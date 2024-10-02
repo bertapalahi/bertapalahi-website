@@ -6,11 +6,12 @@
 	<meta name="description" content="Pagina de fotografa, contiene fotografias e información de la fotografa">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="ber_photos/photober.webp" />
-    <link rel="stylesheet" href="css/estilo.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.min.css">
     <title>Esport</title>
 </head>
 <!-- Google tag (gtag.js) -->
@@ -23,96 +24,92 @@
   gtag('config', 'G-JJ3F5CHLGD');
 </script>
 <body>
-	<!-- Botó per obrir el menú -->
-    <div class="openbtn" onclick="openNav()">&#9776;</div>
-
-    <!-- Menú lateral -->
-    <div class="sidenav">
-		<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="index.html">Inici</a>
-		<a href="interiors.html">Interiors</a>
-		<a href="casaments.html">Casaments</a>
-		<a href="#">Esports</a>
-		<a href="natura.html">Natura</a>
-		<a href="sessions.html">Sessions</a>
-		<!--<a href="projectes.html">Projectes</a>
-		<a href="viatges.html">Viatges</a>-->
-		<a href="contact.html">Sobre Mi</a>
-	</div>
-
-    <h2>Fotografia d'esports i esdeveniments</h2>
-    <p>Amb la fotografia esportiva intento transmetre el que l'esport significa per a mi.</p>
-    <div class="grid">
-        <div class="grid-item">
-            <img src="ber_photos/esport/kayak.webp" alt="fotògrafa esportiva">
+	<div class="container-fluid">
+        <div class="row">
+            <nav class="col-3 menu p-4"> <!--bg-light-->
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link text-black" href="index.html">Inici</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="interiors.html">Interiors</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="casaments.html">Casaments</a></li>
+                    <li class="nav-item"><a class="nav-link text-black bg-light" href="#">Esports</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="sessions.html">Sessions</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="natura.html">Natura</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="contact.html">Sobre Mi</a></li>
+                </ul>
+            </nav>
+            <section class="col-9 gallery p-4">
+                <h4 class="mb-4">Fotografia d'esports i esdeveniments</h4>
+                <p class="mb-4">Amb la fotografia esportiva intento transmetre el que l'esport significa per a mi.</p>
+                <div class="grid">
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/kayak.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/paddlesurf.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/wakeboard.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/skate5.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/skate6.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/skate.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/skate3.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/skate7.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/surf.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/surf1.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/surf3.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/snow2.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/snow.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/ski.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/voleibol.webp" alt="fotògrafa esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/voleibol1.webp" alt="fotògrafa d'esdeveniments">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/voleibol2.webp" alt="fotografia esportiva">
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/voleibol3.webp" alt="fotògrafa esportiva">  
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/voleibol4.webp" alt="fotògrafa esportiva"> 
+                    </div>
+                    <div class="grid-item">
+                        <img src="ber_photos/esport/basquet.webp" alt="fotògrafa esportiva"> 
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/paddlesurf.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/wakeboard.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/skate5.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/skate6.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/skate.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/skate3.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/skate7.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/surf.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/surf1.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/surf3.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/snow2.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/snow.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/ski.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/voleibol.webp" alt="fotògrafa esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/voleibol1.webp" alt="fotògrafa d'esdeveniments">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/voleibol2.webp" alt="fotografia esportiva">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/voleibol3.webp" alt="fotògrafa esportiva">  
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/voleibol4.webp" alt="fotògrafa esportiva"> 
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/esport/basquet.webp" alt="fotògrafa esportiva"> 
-        </div>
-    </div>
-
-    <div class="lightbox" onclick="closeLightbox()">
-        <img id="lightbox-image" src="" alt="Imagen Ampliada">
-    </div>
-
-    <!--Footer -->
-    <footer>
-        <p>&copy; 2024 Berta Palahí. Tots els drets reservats.</p>
-    </footer>
+        <footer>
+            <p>
+                &copy; 2024 Berta Palahí. All rights reserved
+            </p>
+        </footer>
+    </div>        
 
     <script src="js/script.js"></script>
 

@@ -5,128 +5,138 @@
 	<meta name="keywords" content="fotografa a Girona, fotografies de sessions">
 	<meta name="description" content="conté sessions fotografiques">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="ber_photos/photober.webp" />
-    <link rel="stylesheet" href="css/estilo.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.min.css">
+    <link rel="shortcut icon" href="ber_photos/photober.webp" />
     <title>Sessions</title>
 </head>
 <body>
-    <!-- Botó per obrir el menú -->
-    <div class="openbtn" onclick="openNav()">&#9776;</div>
-
-    <!-- Menú lateral -->
-    <div class="sidenav">
-		<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="index.html">Inici</a>
-		<a href="interiors.html">Interiors</a>
-		<a href="casaments.html">Casaments</a>
-		<a href="esport.html">Esports</a>
-		<a href="natura.html">Natura</a>
-		<a href="#">Sessions</a>
-		<!--<a href="projectes.html">Projectes</a>
-		<a href="viatges.html">Viatges</a>-->
-		<a href="contact.html">Sobre Mi</a>
-	</div>
-
-    <h2>Sessions fotogràfiques</h2>
-    <div class="grid">
-        <div class="grid-item">
-            <p>Parelles</p>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-3 menu p-4">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link text-black" href="index.html">Inici</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="interiors.html">Interiors</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="casaments.html">Casaments</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="esport.html">Esports</a></li>
+                    <li class="nav-item"><a class="nav-link text-black bg-light" href="#">Sessions</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="natura.html">Natura</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="contact.html">Sobre Mi</a></li>
+                </ul>
+            </nav>
+            <section class="col-9 gallery">
+                <h4>Sessions fotogràfiques</h4>
+                <div class="section">
+                    <p class="section-title">
+                        Parelles
+                    </p>
+                    <div class="grid">
+                        <div class="grid-item">
+                            <img src="ber_photos/casament/foto-parella1.webp" alt="fotografia parelles">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/casament/foto-parella4.webp" alt="fotografia parelles">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/casament/foto-parella2.webp" alt="fotografia parelles">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/casament/foto-parella5.webp" alt="fotografia parelles">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/casament/foto-parella3.webp" alt="fotografia parelles">
+                        </div>
+                    </div>
+                <div class="section">
+                    <p class="section-title">
+                        Moda i marques
+                    </p>
+                    <div class="grid">
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio.webp" alt="sessions fotografiques">  
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio1.webp" alt="sessions fotografiques">  
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio2.webp" alt="sessions fotografiques">  
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio3.webp" alt="sessions fotografiques">  
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio4.webp" alt="sessions fotografiques">  
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio5.webp" alt="sessions fotografiques">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio6.webp" alt="sessions fotografiques">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio7.webp" alt="sessions fotografiques">  
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio0.webp" alt="sessions fotografiques">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio8.webp" alt="sessions fotografiques">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio9.webp" alt="sessions fotografiques">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/sessio10.webp" alt="sessions fotografiques">
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <p class="section-title">Embaràs i maternitat</p>
+                    <div class="grid">
+                        <div class="grid-item">
+                            <img src="ber_photos/maternitat/maternitat1.webp" alt="sessions fotografiques maternitat">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/maternitat/maternitat3.webp" alt="sessions fotografiques">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/maternitat/maternitat4.webp" alt="sessions fotografiques"> 
+                        </div>
+                    </div>
+                </div>    
+                    
+                <div class="section">
+                    <p class="section-title">
+                        Retrats i modelatge
+                    </p>
+                    <div class="grid">
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/model1.webp" alt="sessions fotografiques">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/model.webp" alt="model">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/model4.webp" alt="sessions fotografiques">
+                        </div>
+                        <div class="grid-item">
+                            <img src="ber_photos/sessions/model6.webp" alt="model">
+                        </div>
+                        <!--<div class="grid-item">
+                            <img src="ber_photos/sessions/model3.webp" alt="sessions fotografiques">
+                        </div>-->
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="grid-item">
-            <img src="ber_photos/casament/foto-parella1.webp" alt="fotografia parelles">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/casament/foto-parella4.webp" alt="fotografia parelles">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/casament/foto-parella2.webp" alt="fotografia parelles">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/casament/foto-parella5.webp" alt="fotografia parelles">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/casament/foto-parella3.webp" alt="fotografia parelles">
-        </div>
-    
-        <div class="grid-item">
-            <p>Moda i marques</p>
-            <img src="ber_photos/sessions/sessio.webp" alt="sessions fotografiques">  
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/sessio1.webp" alt="sessions fotografiques">  
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/sessio2.webp" alt="sessions fotografiques">  
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/sessio3.webp" alt="sessions fotografiques">  
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/sessio4.webp" alt="sessions fotografiques">  
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/sessio5.webp" alt="sessions fotografiques">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/sessio6.webp" alt="sessions fotografiques">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/sessio7.webp" alt="sessions fotografiques">  
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/sessio0.webp" alt="sessions fotografiques">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/sessio8.webp" alt="sessions fotografiques">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/sessio9.webp" alt="sessions fotografiques">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/sessio10.webp" alt="sessions fotografiques">
-        </div>
-    
-        <div class="grid-item">
-            <p>Embaràs i maternitat</p>
-            <img src="ber_photos/maternitat/maternitat1.webp" alt="sessions fotografiques maternitat">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/maternitat/maternitat3.webp" alt="sessions fotografiques">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/maternitat/maternitat4.webp" alt="sessions fotografiques"> 
-        </div>
-    
-        <div class="grid-item">
-            <p>Retrats i modelatge</p>
-            <img src="ber_photos/sessions/model1.webp" alt="sessions fotografiques">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/model.webp" alt="model">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/model4.webp" alt="sessions fotografiques">
-        </div>
-        <div class="grid-item">
-            <img src="ber_photos/sessions/model6.webp" alt="model">
-        </div>
-        <!--<div class="grid-item">
-            <img src="ber_photos/sessions/model3.webp" alt="sessions fotografiques">
-        </div>-->
-    
-        <div class="grid-item">
-            <p>Artistes</p>
-            <img src="ber_photos/sessions/cantant.webp" alt="sessions a artistes">
-        </div>
+        <footer>
+            <p>
+                &copy; 2024 Berta Palahí. All rights reserved
+            </p>
+        </footer>
     </div>
 
     <script src="js/script.js"></script>
-
-    <footer>
-		<p>
-			© 2024 Berta Palahí. All rights reserved
-		</p>
-    </footer>
 </body>
 </html>
