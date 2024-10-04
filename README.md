@@ -1,3 +1,3 @@
 # bertapalahi.github.io
-Pàgina web de fotografia
+Photography website programmed with bootstrap and masonry gallery.
 
