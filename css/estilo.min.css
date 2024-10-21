@@ -38,6 +38,7 @@ h4{
 	font-family: "Inter", sans-serif;
 	font-style: normal;
 	font-size: 35px;
+	font-weight: 400; /* Tipus de lletra més lleuger per un aspecte net */
 }
 
 a {
@@ -64,8 +65,25 @@ a:hover{
 
 .menu {
 	color: #272727; /* Color de les lletres */
+	background-color: white;
 	height: 100vh;
 	padding: 100px 100px; /* Marges al menú */
+}
+
+.nav-link {
+    font-size: 18px; /* Lleugerament més petit */
+    color: #333; /* Evita el negre pur */
+    text-transform: uppercase; /* Majúscules per donar un toc modern */
+    border-bottom: 1px solid #e0e0e0; /* Afegim línies subtils entre elements */
+}
+
+.nav-link:hover {
+    background-color: transparent; /* Evita grans canvis de color en hover */
+    color: #000; /* Petita variació de color en hover */
+}
+
+.nav-item:last-child .nav-link {
+    border-bottom: none; /* Elimina la línia a l'últim element */
 }
 
 
