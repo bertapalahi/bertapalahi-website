@@ -10,15 +10,6 @@ body{
 	flex-direction: column;
 }
 
-/*portada*/
-.portada{
-	background-image: url(../ber_photos/flors.webp);
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-    margin: 0; /* Elimina marges que podrien afectar l'alçada total */
-}
 
 /*definim titol de la portada index*/
 .title{
