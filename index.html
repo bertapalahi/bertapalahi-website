@@ -7,38 +7,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Berta Palahí | Fotografia</title>
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap">
 	<link rel="stylesheet" href="css/estilo.min.css">
 	<link rel="shortcut icon" href="ber_photos/photober.webp">
 	<style>
-		h1{
-			font-size: 60px;
-			font-family: 'Alegreya', serif; /*títol portada*/
-			font-style: normal;
+		.grid {
+			display: grid;
+			justify-content: center; /* Centra la imatge dins del contenidor */
 		}
-
-		h3{
-			font-family: "Reenie Beanie", cursive; /*subtitol portada*/
-			color: white;
-			font-weight: 450;
-			font-style: normal;
-			flex-direction: column;
-			justify-content: center;
-			text-align: center;
-			font-size: 50px;
+		.grid-item img {
+			width: 50%; /* Ajusta la mida de la imatge, aquí al 50% de l'ample original */
+			height: auto; /* Manté les proporcions originals */
 		}
-
-		.portada{
-			background-image: url(../ber_photos/flors.webp);
-			background-attachment: fixed;
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
-			margin: 0; /* Elimina marges que podrien afectar l'alçada total */
-		}
-
 	</style>
 </head>
 <!-- Google tag (gtag.js)
@@ -66,18 +46,20 @@
 					</ul>
 				</nav>
 				<section class="col-9 gallery">
-					<div class="title">
-						<h1>BERTA PALAHI</h1>
-						<h3>Fotògrafa a Girona <br>
-						Fotografia analògica i digital</br></h3>
+					<h1 class="text-center">BERTA PALAHI</h1> <!-- Títol a la part superior dreta -->
+					<p class="text-center">Fotografia analògica i digital · Girona</p>
+					<div class="grid">
+						<div class="grid-item">
+							<img src="ber_photos/flors.webp" alt="Foto 1">
+						</div>
 					</div>
+					<footer>
+						<p>
+							&copy; 2024 Berta Palahí. All rights reserved
+						</p>
+					</footer>
 				</section>
 			</div>
-			<footer>
-				<p>
-					&copy; 2024 Berta Palahí. All rights reserved
-				</p>
-			</footer>
 		</div>
 	</div>		
 
