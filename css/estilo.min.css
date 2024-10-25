@@ -8,6 +8,15 @@ body{
 	background-color: #fff;
 	display: flex;
 	flex-direction: column;
+    min-height: 100vh; /* Assegura que l'altura mínima és la de la pantalla */
+    margin: 0;
+}
+
+/*email and instagram icons*/
+.email-icon, .instagram-icon {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
 }
 
 /*titol i subtitol*/
@@ -80,10 +89,8 @@ a:hover{
 /*footer per a totes les pàgines*/
 footer{
 	text-align: center;
-    margin: 50px;
-	position: relative;
-	width: 100%;
-	bottom: 0;
+    padding: 20px;
+    width: 100%;
 }
 
 /* Estils específics per a mòbils */
@@ -99,57 +106,50 @@ footer{
 	}
 }
 
-/* Móviles en horizontal o tablets en vertical */
+/* Estils específics per a mòbils */
 @media (max-width: 767px) {
     h1 {
-        font-size: 8vw;
+        font-size: 20px; /* Ajustar segons necessitis */
     }
 
-    h2 {
-        font-size: 5vw;
+    h4 {
+        font-size: 14px;
     }
 
-	h4{
-		font-size: 6vw;
+	p{
+		font-size: 8px;
 	}
 
-    .navbar a {
-        font-size: 5vw;
-        padding: 10px 12px;
+    .menu {
+        padding: 20px; /* Redueix el padding del menú */
     }
 
-    .grid{
-		column-count: 2;
-	}
-	
+    .nav-link {
+        font-size: 14px; /* Redueix lleugerament la mida de la lletra */
+    }
 }
-       
+
 /* Móviles en vertical */
 @media (max-width: 480px) {
     h1 {
-        font-size: 10vw;
+        font-size: 20px;
     }
 
-    h2 {
-        font-size: 6vw;
+    h4 {
+        font-size: 14px;
     }
 
-	h4{
-		font-size: 6px;
+	p{
+		font-size: 8px;
 	}
 
-    .navbar a {
-        font-size: 3vw;
-        padding: 8px 10px;
+    .menu {
+        padding: 15px; /* Encara més petit en pantalles petites */
     }
 
-    .grid{
-		column-count: 1;
-	}
-
-	.nav-link{
-		font-size: 5vw;
-	}
+    .nav-link {
+        font-size: 14px; /* Redueix lleugerament la mida de la lletra */
+    }
 }
 
 /*imatge ampliada
