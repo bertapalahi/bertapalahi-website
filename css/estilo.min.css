@@ -19,6 +19,17 @@ body{
 	margin-right: 5px;
 }
 
+.contact-info a:hover {
+	background-color: transparent;
+	color:darkseagreen;
+	opacity: 0.8;
+}
+
+.social-container a:hover {
+	background-color: transparent;
+	color:darkseagreen;
+}
+
 /*titol i subtitol*/
 
 h4{
