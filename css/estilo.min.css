@@ -35,7 +35,6 @@ body{
 h4{
 	font-family: "Inter", sans-serif;
 	font-style: normal;
-	font-size: 30px;
 	font-weight: 400; /* Tipus de lletra més lleuger per un aspecte net */
 }
 
@@ -51,6 +50,7 @@ a:hover{
 	cursor: pointer;
 	background-color: #272727;
 }
+
 
 /*galeria d'imatges masonry*/
 .gallery {
