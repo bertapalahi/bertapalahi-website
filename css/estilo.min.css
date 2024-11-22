@@ -55,7 +55,6 @@ a:hover{
 /*galeria d'imatges masonry*/
 .gallery {
 	padding: 40px;
-	overflow-y: auto;
 	height: 100vh;
 }
 
@@ -88,7 +87,6 @@ a:hover{
 }
 
 .grid .grid-item{
-	display: inline-block;
 	margin-bottom: 10px;
 	width: 100%;
 }
