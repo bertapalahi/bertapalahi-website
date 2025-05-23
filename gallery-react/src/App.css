@@ -1,0 +1,148 @@
+/* App.css */
+
+/* Masonry Grid */
+.my-masonry-grid {
+  display: flex;
+  margin-left: -15px; /* gutter size */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 15px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style each grid item */
+.grid-item {
+  margin-bottom: 15px;
+}
+
+.grid-item img {
+  width: 100%;
+  display: block;
+  border-radius: 3px;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  margin: 0 15px;
+  font-weight: 400;
+  text-transform: uppercase;      /* Majúscules */
+  letter-spacing: 2px;            /* Espai entre lletres */
+  font-family: 'Inter', sans-serif;
+  color: #555;
+  text-decoration: none;
+  padding: 8px 0;
+  border-bottom: 3px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;
+  cursor: pointer;
+}
+
+.nav-link.active {
+  font-weight: 700;
+  color: #272727;
+  border-bottom: 3px solid #272727;
+}
+
+.nav-link:hover {
+  color: #155ab6;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+
+/*email and instagram icons*/
+.email-icon, .instagram-icon {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+.portada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  color: #222;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 0.3rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #272727;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: #555;
+  font-style: italic;
+}
+
+.hero-image-wrapper {
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.contact-link:hover {
+  transform: scale(1.15);
+}
+
+.contact-icon {
+  width: 32px;
+  height: 32px;
+  filter: grayscale(40%);
+  transition: filter 0.3s ease;
+}
+
+.contact-link:hover .contact-icon {
+  filter: none;
+}
+
+.footer {
+  font-size: 0.875rem;
+  color: #888;
+}
