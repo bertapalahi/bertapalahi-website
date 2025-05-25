@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bertapalahi-website/static/css/main.a292b292.css",
+    "main.js": "/bertapalahi-website/static/js/main.a8c3ac2e.js",
+    "index.html": "/bertapalahi-website/index.html",
+    "main.a292b292.css.map": "/bertapalahi-website/static/css/main.a292b292.css.map",
+    "main.a8c3ac2e.js.map": "/bertapalahi-website/static/js/main.a8c3ac2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a292b292.css",
+    "static/js/main.a8c3ac2e.js"
+  ]
+}
