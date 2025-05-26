@@ -40,7 +40,7 @@ function Esports() {
   return (
     <div className="Esports">
       <h2>Fotografia d'esports</h2>
-      <p>Fotografia de reformes de diferents interioristes o arquitectes.</p>
+      <p>Fotografia d'esports que he practicat, principalment voleibol.</p>
 
       <Masonry
         breakpointCols={breakpointColumnsObj}

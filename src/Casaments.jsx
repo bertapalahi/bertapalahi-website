@@ -2,9 +2,6 @@ import Masonry from 'react-masonry-css';
 import './App.css';
 
 const images = [
-  "ber_photos/casament/EL00001.webp",
-  "ber_photos/casament/EL00003.webp",
-  "ber_photos/casament/EL00006.webp",
   "ber_photos/casament/EL00007.webp",
   "ber_photos/casament/EL00008.webp",
   "ber_photos/casament/EL00010.webp",
@@ -38,7 +35,10 @@ const images = [
   "ber_photos/casament/MI00038.webp",
   "ber_photos/casament/MI00043.webp",
   "ber_photos/casament/MI00044.webp",
-  "ber_photos/casament/MI00053.webp"
+  "ber_photos/casament/MI00053.webp",
+  "ber_photos/casament/EL00001.webp",
+  "ber_photos/casament/EL00003.webp",
+  "ber_photos/casament/EL00006.webp",
 ];
 
 function Casaments() {
@@ -51,7 +51,7 @@ function Casaments() {
   return (
     <div className="Casaments">
       <h2>Fotografia de casaments</h2>
-      <p>Fotografia de reformes de diferents interioristes o arquitectes.</p>
+      <p>Fotografia analògica i digital per casaments únics.</p>
 
       <Masonry
         breakpointCols={breakpointColumnsObj}

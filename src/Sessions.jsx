@@ -2,9 +2,6 @@ import Masonry from 'react-masonry-css';
 import './App.css';
 
 const images = [
-  "ber_photos/sessions/sessio.webp",
-  "ber_photos/sessions/sessio1.webp",
-  "ber_photos/sessions/sessio2.webp",
   "ber_photos/sessions/bolsos1.webp",
   "ber_photos/sessions/sessio3.webp",
   "ber_photos/sessions/sessio4.webp",
@@ -33,7 +30,14 @@ const images = [
   "ber_photos/sessions/model1.webp",
   "ber_photos/sessions/model.webp",
   "ber_photos/sessions/model4.webp",
-  "ber_photos/sessions/model6.webp"
+  "ber_photos/sessions/model6.webp",
+  "ber_photos/sessions/sessio.webp",
+  "ber_photos/sessions/sessio1.webp",
+  "ber_photos/sessions/sessio2.webp",
+  "ber_photos/sessions/embaras.webp",
+  "ber_photos/sessions/embaras2.webp",
+  "ber_photos/sessions/embaras3.webp",
+  "ber_photos/sessions/embaras4.webp",
 ];
 
 function Sessions() {
@@ -46,7 +50,7 @@ function Sessions() {
   return (
     <div className="Sessions">
       <h2>Sessions fotogràfiques</h2>
-      <p>Fotografia de reformes de diferents interioristes o arquitectes.</p>
+      <p>Sessions fotogràfiques al gust de cadascú.</p>
 
       <Masonry
         breakpointCols={breakpointColumnsObj}

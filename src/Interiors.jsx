@@ -36,7 +36,6 @@ const images = [
   "/ber_photos/interiors/interiors30.webp",
   "/ber_photos/interiors/interiors32.webp",
   "/ber_photos/interiors/interiors23.webp",
-  "/ber_photos/interiors/interiors33.webp"
 ];
 
 function Interiors() {
